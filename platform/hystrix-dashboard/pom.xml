@@ -4,18 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.bihju</groupId>
+    <groupId>com.wolverinesolution.deliverybackend</groupId>
     <artifactId>food-ordering-hystrix-dashboard</artifactId>
     <packaging>jar</packaging>
+
     <name>Cloud Infrastructure Hystrix Dashboard</name>
     <version>0.0.1.BUILD-SNAPSHOT</version>
-
-    <parent>
-        <artifactId>food-ordering-system</artifactId>
-        <groupId>com.bihju</groupId>
-        <version>1.0.0.BUILD-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath>
-    </parent>
 
     <build>
         <plugins>
@@ -62,17 +56,20 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-netflix-eureka-client</artifactId>
+            <version>2.0.2.RELEASE</version>
             <scope>compile</scope>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-netflix-hystrix-dashboard</artifactId>
+            <version>2.0.2.RELEASE</version>
         </dependency>
 
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
+            <version>4.12</version>
             <scope>test</scope>
         </dependency>
 

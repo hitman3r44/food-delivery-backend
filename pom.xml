@@ -10,7 +10,7 @@
         <version>2.1.1.RELEASE</version>
     </parent>
 
-    <groupId>com.bihju</groupId>
+    <groupId>com.wolverinesolution.deliverybackend</groupId>
     <artifactId>food-ordering-system</artifactId>
     <version>1.0.0.BUILD-SNAPSHOT</version>
     <packaging>pom</packaging>
