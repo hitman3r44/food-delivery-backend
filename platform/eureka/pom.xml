@@ -12,6 +12,13 @@
     <name>Eureka Server</name>
     <description>Cloud Infrastructure Eureka Server</description>
 
+    <parent>
+        <artifactId>food-ordering-system</artifactId>
+        <groupId>com.bihju</groupId>
+        <version>1.0.0.BUILD-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
     <dependencies>
 
         <dependency>
@@ -35,12 +42,12 @@
 
     </dependencies>
 
-    <!--<properties>-->
-    <!--<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
-    <!--<start-class>com.wolverinesolutions.EurekaApplication</start-class>-->
-    <!--<java.version>1.8</java.version>-->
-    <!--<docker.image.prefix>springcloud</docker.image.prefix>-->
-    <!--</properties>-->
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <start-class>com.wolverinesolutions.EurekaApplication</start-class>
+        <java.version>1.8</java.version>
+        <docker.image.prefix>springcloud</docker.image.prefix>
+    </properties>
 
     <build>
         <plugins>
