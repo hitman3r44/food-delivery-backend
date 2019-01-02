@@ -27,11 +27,7 @@ Once we have the account-service in the future, the shopping cart service can be
 
 ### Get Started
 1. Run `docker-compose up -d` to start MongoDB and Rabbitmq if you don't have them on your local computer.
-2. Build then start services: <br />
+2. Build  with (mvn clean install -U) then start services: <br />
 restaurant-info-service --> order-service --> payment-service --> payment-processing-service.
 3. Upload restaurant test data in `restaurant.json`.
 4. Open restaurant UI on http://localhost:8080
-
-### How to run
-> mvn clean install -U
-
