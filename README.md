@@ -1,4 +1,4 @@
-# food-delivery-app
+# Food-Felivery-App
 Spring Boot application based on microservices architecture. 
 
 **Done**
