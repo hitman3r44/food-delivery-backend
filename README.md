@@ -31,3 +31,7 @@ Once we have the account-service in the future, the shopping cart service can be
 restaurant-info-service --> order-service --> payment-service --> payment-processing-service.
 3. Upload restaurant test data in `restaurant.json`.
 4. Open restaurant UI on http://localhost:8080
+
+### How to run
+> mvn clean install -U
+
