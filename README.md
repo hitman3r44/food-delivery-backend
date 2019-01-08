@@ -48,8 +48,4 @@ Once we have the account-service in the future, the shopping cart service can be
 
 ## Contributing
 
-Please contribute using [Github Flow]
-(https://guides.github.com/introduction/flow/). 
-Create a branch, add commits, and 
-[open a pull request]
-(https://github.com/fraction/readme-boilerplate/compare/).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/hitman3r44/food-delivery-backend/compare/).
