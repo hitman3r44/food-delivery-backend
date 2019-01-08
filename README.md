@@ -46,6 +46,10 @@ Once we have the account-service in the future, the shopping cart service can be
 - [ ] Finish Spring Cloud platform.
 - [ ] Test system performance of handling high volume of requests.
 
+## Project Managment
+
+Please go to this youTrack link [YouTrack](https://wolverinesolutions.myjetbrains.com).
+
 ## Contributing
 
 Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/hitman3r44/food-delivery-backend/compare/).
