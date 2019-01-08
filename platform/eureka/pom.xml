@@ -12,9 +12,9 @@
     <description>Cloud Infrastructure Eureka Server</description>
 
     <parent>
-        <artifactId>food-ordering-system</artifactId>
-        <groupId>com.wolverinesolution.deliverybackend</groupId>
+        <artifactId>platform</artifactId>
         <version>1.0.0.BUILD-SNAPSHOT</version>
+        <groupId>com.wolverinesolution.deliverybackend</groupId>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -23,7 +23,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>
-            <version>1.4.6.RELEASE</version>
         </dependency>
 
         <dependency>
