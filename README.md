@@ -8,6 +8,7 @@ Food Delivery Application based on microservices architecture.
 - [Requirements](#requirements)
 - [System Architecture](#system-architecture)
 - [Functionality](#functionality)
+- [Project Managment](#project-managment)
 - [Contributing](#contributing)
 
 ## Installation
