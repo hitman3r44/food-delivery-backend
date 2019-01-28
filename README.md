@@ -29,6 +29,10 @@ restaurant-info-service --> order-service --> payment-service --> payment-proces
 - Lombok Intellij Plugin
 - HOTSWAP AGENT Intellij Plugin
 - DCEVM Plugin for JAVA HotSwap functionality in OS [DCEVM](http://dcevm.github.io/)
+- Install Git Flow AVH `sudo apt-get install git-flow`
+- Install Intellij Plugin  [Git Flow Integration](https://plugins.jetbrains.com/plugin/7315-git-flow-integration).
+- Click `init repo `
+
 
 
 
