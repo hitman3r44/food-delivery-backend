@@ -12,7 +12,7 @@
 
     <groupId>com.wolverinesolution.deliverybackend</groupId>
     <artifactId>food-ordering-system</artifactId>
-    <version>1.0.0.BUILD-SNAPSHOT</version>
+    <version>0.0.1.BUILD-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Food Ordering System</name>

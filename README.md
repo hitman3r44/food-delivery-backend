@@ -24,6 +24,14 @@ restaurant-info-service --> order-service --> payment-service --> payment-proces
 - Java JDK 8
 - Apache Maven
 - Docker
+- MongoDB
+- H2 Databse
+- Lombok Intellij Plugin
+- HOTSWAP AGENT Intellij Plugin
+- DCEVM Plugin for JAVA HotSwap functionality in OS [DCEVM](http://dcevm.github.io/)
+
+
+
 
 ## System Architecture
 
