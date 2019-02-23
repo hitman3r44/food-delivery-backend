@@ -2,6 +2,8 @@ package com.wolverinesolutions.controller;
 
 import com.wolverinesolutions.domain.Order;
 import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -13,6 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 @Slf4j
 public class OrderCompleteUpdater {
+
+    private static final Logger log = LoggerFactory.getLogger(OrderCompleteUpdater.class);
 
     @Autowired
     private SimpMessagingTemplate template;

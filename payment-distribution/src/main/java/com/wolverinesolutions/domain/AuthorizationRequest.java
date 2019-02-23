@@ -16,5 +16,22 @@ import lombok.ToString;
 public class AuthorizationRequest {
 
     private CreditCard creditCard;
+
+    public CreditCard getCreditCard() {
+        return creditCard;
+    }
+
+    public void setCreditCard(CreditCard creditCard) {
+        this.creditCard = creditCard;
+    }
+
+    public double getAmount() {
+        return amount;
+    }
+
+    public void setAmount(double amount) {
+        this.amount = amount;
+    }
+
     private double amount;
 }
