@@ -18,4 +18,7 @@ public class AuthorizationRequest {
 
     private CreditCard creditCard;
     private double amount;
+
+    public AuthorizationRequest(Object creditCard, double amount) {
+    }
 }
