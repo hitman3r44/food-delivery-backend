@@ -1,12 +1,30 @@
-rabbitmq:
-  image: rabbitmq:3.6.1-management
-  ports:
-    - "5672:5672"
-    - "15672:15672"
+version: '3'
+services:
 
-mongodb:
-  image: mongo:3.4.4
-  ports:
-    - "27017:27017"
-  environment:
-    MONGODB_DATABASE: "foodDeliveryApp"
+  # RabitMQ Service
+  rabbitmq:
+    image: ${RABITMQ_IMAGE}
+    container_name: ${RABITMQ_CONTAINER_NAME}
+    ports:
+      - ${RABITMQ_PORT}:${RABITMQ_PORT}
+      - ${RABITMQ_PORT_SECURE}:${RABITMQ_PORT_SECURE}
+    networks:
+      - ${DOCKER_NETWORK_NAME}
+
+  # MongoDb Service
+  mongodb:
+    image: ${MONGODB_IMAGE}
+    container_name: ${MONGODB_CONTAINER_NAME}
+    restart: unless-stopped
+    tty: true
+    ports:
+      - ${MONGODB_PORT}:${MONGODB_PORT}
+    environment:
+      MONGODB_DATABASE: ${MONGODB_DATABASE}
+    networks:
+      - ${DOCKER_NETWORK_NAME}
+
+#Docker Networks
+networks:
+  food-delivery-backend:
+    driver: bridge
