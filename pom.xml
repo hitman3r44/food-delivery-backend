@@ -18,6 +18,13 @@
     <name>Food Ordering System</name>
     <description>A food ordering/delivery system.</description>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <!--suppress UnresolvedMavenProperty -->
+        <java.version>${env.JAVA_VERSION}</java.version>
+    </properties>
+
     <modules>
         <module>restaurant-service</module>
         <module>order-service</module>
@@ -26,12 +33,6 @@
         <module>order-complete-updater</module>
         <module>platform</module>
     </modules>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
-    </properties>
 
     <dependencies>
 

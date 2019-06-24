@@ -8,6 +8,8 @@
         <version>0.0.1.BUILD-SNAPSHOT</version>
     </parent>
 
+    <name>Cloud Infrastructure Service</name>
+
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>platform</artifactId>
@@ -19,7 +21,5 @@
     </modules>
 
     <packaging>pom</packaging>
-
-    <name>Cloud Infrastructure Service</name>
 
 </project>
